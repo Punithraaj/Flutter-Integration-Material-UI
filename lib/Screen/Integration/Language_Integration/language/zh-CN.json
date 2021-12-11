@@ -1,0 +1,20 @@
+
+{
+
+    "china":"中国",
+    "india":"印度",
+    "indonesia":"印度尼西亚",
+    "brazil":"巴西",
+    "detail":"查看详细语言",
+    "title":"标题",
+    "lorem":"Lorem Ipsum 只是印刷和排版行业的虚拟文本。 Lorem Ipsum 一直是这个行业",
+    "lorem2":"它不仅存活了五个世纪，而且还经历了电子排版的飞跃，基本保持不变。 它在 1960 年代随着包含 Lorem Ipsum 段落的 Letraset 表的发布而普及",
+    "language":"选择语言",
+    "english":"英语",
+    "arabic":"阿拉伯",
+    "titleCard":"改变语言？",
+    "descCard":"您确定要更改此语言设置吗？"
+    
+    
+
+}
