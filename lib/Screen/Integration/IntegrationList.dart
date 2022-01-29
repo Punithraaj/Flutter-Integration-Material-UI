@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_integration_material_ui/Screen/Integration/BarcodeScanner/BarcodeScreen.dart';
+import 'package:flutter_integration_material_ui/Screen/Integration/BarcodeScanner/Page/QR_Create_Page.dart';
 import 'package:flutter_integration_material_ui/Screen/Integration/Language_Integration/LanguageScreen.dart';
 
 class IntegrationList extends StatefulWidget {
@@ -25,6 +27,13 @@ class _IntegrationListState extends State<IntegrationList> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            InkWell(
+                onTap: () {
+                  Navigator.of(context).push(PageRouteBuilder(
+                      pageBuilder: (_, __, ___) => BarCodeScreen()));
+                },
+                child: card("Create Barcode Code", Color(0xFFFFC074),
+                    Icons.qr_code_outlined)),
             InkWell(
                 onTap: () {
                   Navigator.of(context).push(PageRouteBuilder(
