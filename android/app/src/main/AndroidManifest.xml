@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutter_integration_material_ui">
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
    <application
         android:label="flutter_integration_material_ui"
         android:icon="@mipmap/ic_launcher">
