@@ -4,6 +4,7 @@ import 'package:flutter_integration_material_ui/Screen/Integration/BarcodeScanne
 import 'package:flutter_integration_material_ui/Screen/Integration/BarcodeScanner/Page/QR_Create_Page.dart';
 import 'package:flutter_integration_material_ui/Screen/Integration/Language_Integration/LanguageScreen.dart';
 import 'package:flutter_integration_material_ui/Screen/Integration/PDF_Viewer/PDF_Main_Screen.dart';
+import 'package:flutter_integration_material_ui/Screen/Integration/Signature/SignaturePage.dart';
 
 class IntegrationList extends StatefulWidget {
   IntegrationList({Key key}) : super(key: key);
@@ -48,6 +49,13 @@ class _IntegrationListState extends State<IntegrationList> {
                       pageBuilder: (_, __, ___) => PDFScreen()));
                 },
                 child: card("PDF Viewer", Color(0xFF5F939A), Icons.pageview)),
+            InkWell(
+                onTap: () {
+                  Navigator.of(context).push(PageRouteBuilder(
+                      pageBuilder: (_, __, ___) => SignaturePage()));
+                },
+                child: card(
+                    "Signature", Color(0xFFE99497), CupertinoIcons.signature)),
           ],
         ),
       ),

@@ -40,6 +40,10 @@ dependencies:
   flutter_pdfview: ^1.2.1
   path_provider: ^2.0.8
   file_picker: ^4.3.3
+  signature: ^5.0.0
+  permission_handler: ^9.1.0
+  another_flushbar: ^1.10.28
+  image_gallery_saver: ^1.7.1
 
 dev_dependencies:
   flutter_test:
