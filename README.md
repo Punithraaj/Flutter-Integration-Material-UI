@@ -1,16 +1,14 @@
-# flutter_integration_material_ui
+# Flutter_PdfViewer
 
-A new Flutter project.
+Use the Flutter PDF Viewer to download PDF documents and display them within your Flutter app.
 
-## Getting Started
+## [Watch it on YouTube](https://youtu.be/wyGh3a96vkM)
+![Preview](U3.png)
+   
+**Packages we are using:**
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-   http: [link](https://pub.dev/packages/http)
+-   flutter_pdfview: [link](https://pub.dev/packages/flutter_pdfview)
+-   path_provider: [link](https://pub.dev/packages/path_provider)
+-   file_picker: [link](https://pub.dev/packages/file_picker)
+-   shared_preferences: [link](https://pub.dev/packages/shared_preferences)
