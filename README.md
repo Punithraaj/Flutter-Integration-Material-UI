@@ -3,7 +3,7 @@
 Use the Flutter PDF Viewer to download PDF documents and display them within your Flutter app.
 
 ## [Watch it on YouTube](https://youtu.be/sYlcSauOPxk)
-![Preview](4.png)
+![Preview](The Flutter And Dart Academy.png)
    
 **Packages we are using:**
 
